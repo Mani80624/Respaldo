@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        #Menu {
+            display: none;
+            position: absolute;
+            background-color: aquamarine;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 2);
+            padding: 12px;
+        }
+        #menu a {
+            text-decoration: none;
+            color: black;
+            padding: 15px;
+            display: block;
+
+        }
+        #menu a :hover{
+            background-color: aquamarine;
+        }
+        #toogleButton {
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Menu de JavaScript</h1>
+    <div id="toogleButton">Mostrar el menu</div>
+    <div id="Menu"></div>
+    <ul id="menu">
+        <li>
+            <a href="/js1-1.html">Ir a la página 1</a>
+        </li>
+        <li>
+            <a href="/js1-2.html">Ir a la página 2</a>
+        </li>
+        <li>
+            <a href="/js1-3.html">Ir a la página 3</a>
+        </li>
+    </ul>
+    <script src="/js/menu-1.js"></script>
+</body>
+</html>

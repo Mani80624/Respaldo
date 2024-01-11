@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación Calculadora </title>
+    <!--Importación de archivos bootstrap-->
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.rtl.css">
+    <link rel="stylesheet" href="/css/bootstrap.rtl.min.css">
+</head>
+<body>
+    <!--- La clase container es propia de bootstrap-->
+    <div class="container">
+        <h1>Aplicación Calculadora</h1>
+        <form id="forma" class="forma">
+            <!--mb son espacios que se deben dejar con respecto al eje vertical en vez de utilizar el tag br-->
+            <div class="mb-3">
+                <label for="operandoA">Operando A</label>
+                <input type="number" class="form-control" placeholder="Escribe operando A" id="operandoA">
+            </div>
+            <div class="mb-3">
+                <label for="operandoB">Operando B</label>
+                <input type="number" class="form-control" placeholder="Escribe operando B" id="operandoB">
+            </div>
+        </form>
+        <!--La clase btn corresponde a los botones en el framework y los btn-primary corresponde al color que se le asigna el botón-->
+        <button class="btn btn-primary mb-3" onclick="sumar()">Sumar</button>
+        <div id="resultado"></div>
+    </div>
+    <script src="/js/app.js"></script>
+    
+</body>
+</html>

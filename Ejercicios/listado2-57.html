@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularios</title>
+</head>
+<body>
+    <section>
+        <form name="formulario" method="get" action="procesar.php">
+            <p>
+                <label>Nombre: <input type="text" name="nombre" maxlength="15"></label>
+            </p>
+            
+            <p><label><input type="checkbox" name="edad15" value="15" checked>15 años</label></p>
+            <p><label><input type="checkbox" name="edad30" value="30" checked>30 años</label></p>
+            <p><label><input type="checkbox" name="edad45" value="45">45 años</label></p>
+            <p><label><input type="checkbox" name="edad60" value="60">60 años</label></p>
+            <p><label>Fecha: <input type="date" name="fecha" value="2023-09-28"></label></p>
+            <p><input type="submit" value="Enviar Datos"></p>
+        </form>
+    </section>
+</body>
+</html>

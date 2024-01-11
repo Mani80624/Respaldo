@@ -1,0 +1,7 @@
+#titulo{
+    font-family: 'Dancing Script', cursive;
+}
+@font-face {
+    font-family: "MiNuevaLetra";
+    src: url("/Dancing_Script/DancingScript-VariableFont_wght.ttf");
+}
